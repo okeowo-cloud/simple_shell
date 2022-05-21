@@ -15,4 +15,3 @@ char *read_line(int *i_eof)
 
 	return (input);
 }
-
