@@ -8,7 +8,7 @@
 
 char *read_cmd(void)
 {
-	char *buf, *ptr, ptrlen = 0, char *error = "unable to allocate memory";
+	char *buf, *ptr, ptrlen = 0, *error = "unable to allocate memory";
 
 	buf = malloc(sizeof(char) * 1024);
 	if (buf == NULL)
